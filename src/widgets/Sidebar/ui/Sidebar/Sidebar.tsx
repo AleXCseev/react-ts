@@ -4,7 +4,6 @@ import { classNames } from "shared/lib";
 import { ThemeSwitcher } from "widgets/ThemeSwitcher";
 import { LangSwitcher } from "widgets/LangSwitcher";
 
-
 interface Sidebar {
     className?: string;
 }
@@ -23,7 +22,6 @@ export const Sidebar: FC<Sidebar> = ({className}) => {
                 <ThemeSwitcher/>
                 <LangSwitcher className={cls.lang}/>
             </div>
-            
         </div>
     )
 }
